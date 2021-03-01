@@ -1,3 +1,9 @@
-- run script "python bot1.py"
+- Add bot into slack: https://api.slack.com/apps > BOT Gabe > Install your app > Install to workspace > Return to slack chat and Add apps > Bot Gabe
+- Connect App: BOT Gabe > top right corner information icon > More > Add this app to a channel... > #bot
+- Update .env SLACK_TOKEN: https://api.slack.com/apps > BOT Gabe > OAuth & Permissions > Copy Bot User OAuth Token (click show) into .env SLACK_TOKEN
+- run script "python bot.py"
+- run script "python bot1.py" 
 - run ngrok with command "ngrok http 5000"
-- update url for event subscriptions from ngrok. Make sure to include /slack/events: https://api.slack.com/apps/A01Q0GEMEGH/event-subscriptions?
+- Update .env SIGNING_SECRET: https://api.slack.com/apps > BOT Gabe > Basic Information > Copy Signing Secret to .env SIGNING_SECRET
+- Update Request URL: https://api.slack.com/apps > BOT Gabe > Event Subscriptions > Change > Paste the first Forwarding from ngrok url. Make sure to include at the end /slack/events
+- Type a text in #bot
