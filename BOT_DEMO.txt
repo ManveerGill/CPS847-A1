@@ -1,0 +1,3 @@
+- run script "python bot1.py"
+- run ngrok with command "ngrok http 5000"
+- update url for event subscriptions from ngrok. Make sure to include /slack/events: https://api.slack.com/apps/A01Q0GEMEGH/event-subscriptions?
